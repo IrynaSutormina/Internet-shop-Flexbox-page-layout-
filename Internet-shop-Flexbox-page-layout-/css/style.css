@@ -1,0 +1,284 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:'bebas_neueregular';
+    src: url('../fonts/bebas/bebas-webfont.eot');
+    src: url('../fonts/bebas/bebas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas/bebas-webfont.woff2') format('woff2'),
+         url('../fonts/bebas/bebas-webfont.woff') format('woff'),
+         url('../fonts/bebas/bebas-webfont.ttf') format('truetype'),
+         url('../fonts/bebas/bebas-webfont.svg#bebas_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'lobster_1.4regular';
+    src: url('../fonts/lobster/lobster-webfont.eot');
+    src: url('../fonts/lobster/lobster-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/lobster/lobster-webfont.woff2') format('woff2'),
+         url('../fonts/lobster/lobster-webfont.woff') format('woff'),
+         url('../fonts/lobster/lobster-webfont.ttf') format('truetype'),
+         url('../fonts/lobster/lobster-webfont.svg#lobster_1.4regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans/open_sans-webfont.eot');
+    src: url('../fonts/opensans/open_sans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans/open_sans-webfont.woff2') format('woff2'),
+         url('../fonts/opensans/open_sans-webfont.woff') format('woff'),
+         url('../fonts/opensans/open_sans-webfont.ttf') format('truetype'),
+         url('../fonts/opensans/open_sans-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+}
+
+.bg1 {
+    background-color: #4ccfc1;
+}
+
+.menu {
+    width: 1000px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+form {
+    position: relative; 
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #e3e3e3;
+    border-radius: 5%;  
+    outline: 0;     
+}
+.fa {
+    color: #e3e3e3;
+    position: absolute;
+    right: 9px;
+    top: 8px;   
+    font-size: 24px;
+}
+.logo300 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.lobster {
+    font-family: 'lobster_1.4regular';
+    font-size: 49px;
+    color: #3cc3b5;
+}
+.bebas {
+    font-family: 'bebas_neueregular';
+    font-size: 33px;
+    color: #a1a1a1;
+    padding: 0 10px;
+}
+/*form::after {
+    background: red;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    /*background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    /*-position: 4px; /*Позиционируем*/ 
+
+
+.navigation {
+    width: 1000px;
+    background-color:  #4ccfc1;
+    padding: 15px 20px;
+}
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: bebas_neueregular;
+    font-size: 21px;
+}
+.brd {
+    border-right: 2px solid white;
+    padding-right: 20px;
+}
+
+.bg3 {
+    background-color: #3bc2b2;
+}
+.imgbox {
+    padding: 60px;
+}
+.bigbox {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+}
+.contant {
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.contant h1 {
+    text-transform: uppercase;
+    font-family: 'bebas_neueregular';
+    font-size: 60px;
+    color: white;
+}
+.contant p {
+    font-family: 'open_sansregular';
+    font-size: 17px;
+    color: white;
+    line-height: 2;
+}
+.butn1 {
+    width: 140px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+.butn1 a {
+    font-family: 'bebas_neueregular';
+    font-size: 27px;
+    color: white;
+    text-decoration: none;
+}
+.box {
+    display: flex;
+    justify-content: space-around;
+    width: 33.3%;
+    padding-right: 50px;
+    padding-top: 20px;
+    
+}
+.butn2 {    
+    background-color: #3cc395;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.butn2 a {
+    font-family: 'bebas_neueregular';
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    
+}
+.contant1 h2,
+.contant1 p {
+    text-transform: uppercase;
+    font-family: 'bebas_neueregular';
+    font-size: 27px;
+    color: #afafaf;
+    margin-bottom: 20px;
+}
+.contant1 {
+    padding: 20px 0;
+}
+.wrapper {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;   
+    padding: 20px 0;
+    
+}
+
+.brd1 {
+    border-left: 2px solid #e7e7e7;
+}
+.line {
+    width: 1000px;
+    padding: 20px 50px;
+}
+.line p {
+    font-family: 'bebas_neueregular';
+    font-size: 31px;
+    color: white;
+    text-transform: uppercase;
+}
+.bigwrapper {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+.field {
+    width: 33.333%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.area {
+    border: 1px solid #e4e4e4;
+    padding: 20px 50px 0;
+    box-shadow: 0 5px 0 #3cc395;
+    width: 100%;
+}
+.blok {
+    align-items: baseline;
+    display: flex;  
+    justify-content: space-around;  
+}
+.centr {
+    text-align: center;
+}
+.imgbox1 {
+    text-align: center;
+}
+h3 {
+    font-family: 'bebas_neueregular';
+    font-size: 27px;
+    color: white;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.bg2 {
+    background-color: #3cc3b5;
+}
+.foot {
+    width: 25%;
+    padding: 30px;
+}
+.foot ul a {
+    font-family: 'open_sansregular';
+    font-size: 15px;
+    color: white;
+    line-height: 2;
+    text-decoration: none;
+}
+.footline p {
+    font-family: 'open_sansregular';
+    font-size: 15px;
+    color: white;
+}
+.bg4 {
+    background-color: #2da89b;
+}
+.footline {
+    padding: 20px;
+}
